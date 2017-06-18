@@ -5,7 +5,7 @@ I implemented ADMM-NeuralNetwork based on this paper: Taylor, Gavin, et al. "Tra
 
 # Requirements
 - MATLAB version >= R2015a
-- ADMM-NeuralNetwork can only has GPU version; therefore, MATLAB and system have to support it.
+- ADMM-NeuralNetwork can only run on GPU version; therefore, MATLAB and system have to support it.
 
 # Neural Network Achitecture
 - NN has 2 hidden layers. You can change it in NeuralNetwork.m and main.m
