@@ -8,7 +8,7 @@ I implemented ADMM-NeuralNetwork based on this paper: Taylor, Gavin, et al. "Tra
 - ADMM-NeuralNetwork only has GPU version; therefore, MATLAB and system have to support it.
 
 # Neural Network Achitecture
-- NN has 2 hidden layers. You can change it in NeuralNetwork.m and main.m
+- NN has 1 hidden layers. You can change it in NeuralNetwork.m and main.m
 - I use Relu for activation function and least square for loss function.
 
 # How to run
