@@ -3,7 +3,7 @@
 % Training neural networks without gradients: A scalable admm approach.
 % International Conference on Machine Learning. 2016.
 
-% NeuralNetwork has 2 hidden layer, using least square loss instead of binhinge loss
+% NeuralNetwork has 1 hidden layer, using least square loss instead of binhinge loss
 % MNIST for traing and testing data
 
 %  Author: Thanh Nguyen-Duc (Potato Thanh)
@@ -61,7 +61,7 @@ opts.numWarm = 5;
 opts.isShow = 1;
 
 %training + testing model
-weights = TrainNeuralNetwork(trainX, trainY, testX, testY);
+weights = NeuralNetwork(trainX, trainY, testX, testY);
 
 %save model
 save weights.mat weights;
